@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Search Users in github</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br>
+        <h1 style="text-align: center;">
+            Github Search User App
+        </h1>
+        <br>
+        <form id="myform" autocomplete="on">
+            <div class="form-group">
+                <input type="text" class="form-control" id="search" placeholder="Enter Github user name" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <button type="submit" class="btn btn-block btn-danger " style="width: 100%;">
+                    Search User
+                </button>
+            </div>
+        </form>
+        <br>
+        <div id="result" >
+          
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
